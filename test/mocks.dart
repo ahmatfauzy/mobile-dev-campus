@@ -1,7 +1,10 @@
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'package:http/http.dart' as http;
 import 'package:mocktail/mocktail.dart';
+import 'package:auth_flutter/services/auth_service.dart';
+
 
 class MockHttpClient extends Mock implements http.Client {}
 
 class MockSecureStorage extends Mock implements FlutterSecureStorage {}
+class MockAuthService extends Mock implements AuthService {}

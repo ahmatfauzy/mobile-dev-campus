@@ -36,6 +36,7 @@ dependencies:
   cupertino_icons: ^1.0.8
   flutter_secure_storage: ^9.2.4
   http: ^1.6.0
+  mocktail: ^1.0.4
 
 dev_dependencies:
   flutter_test:
